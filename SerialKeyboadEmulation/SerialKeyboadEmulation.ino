@@ -43,7 +43,7 @@ int totalnames = 5;
 // Assign INPUT PINS If you need more input pins seperate them with a comma.
 const int InputPin[5] = {7, 6, 10, 8, 9};
 int totalins = 5;
-int clicked = 0;
+
 
 // Assign OUTPUT PINS
 int outpin[1] = {13};
@@ -55,6 +55,7 @@ int lastinput = 0;
 int lastclicked = 0;
 const long sketchversion = 1.0;
 int btnnum = 0;
+int clicked = 0;
 int reading = LOW;
 int ledState = HIGH;         // the current state of the output pin
 int buttonState;             // the current reading from the input pin
